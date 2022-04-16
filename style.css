@@ -230,7 +230,7 @@ ul.carruselFotos li:target {
 @media (min-width: 768px) {
     .main {
         background-color: white;
-        width: 90%;
+        width: 100%;
         margin: 8rem auto;
         align-items: center;
     }
