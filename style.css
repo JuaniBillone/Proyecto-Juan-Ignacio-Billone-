@@ -271,16 +271,256 @@ ul.carruselFotos li:target {
 
 /* PROYECTOS */
 
+.p-3 {
+
+    height: 200%;
+    width: 100%;
+    padding: 2rem;
+}
+
+
+
 .container-proyectos {
-    width: 90%;
-    margin: 8rem auto;
-    /* align-items: center; */
+    width: 100%;
+    height: 90%;
+    margin: -35rem auto;
 }
 
 .linkproyectos {
     display: flex;
-    flex-wrap: wrap;
-/*     flex-direction: column; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem auto;
+    width: 90%;
+    }
+
+.linkproyectos a {
+        text-decoration: none;
+    }
+
+    #tituloproyecto {
+        display: flex;
+        justify-content: left;
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+
+    .casaDonulink {
+        color: transparent;
+        cursor: pointer;
+        padding: 1rem 2rem;
+        margin: 1rem;
+        width: 350px;
+        height: 250px;
+        border-style: none;
+        background-image: url(./Images/Imagen8.jpg);
+        background-position: center;
+        background-size: cover; 
+        transition: 0.8s;
+        }
+
+        .acuñalink {
+            font-size: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: transparent;
+            letter-spacing: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            width: 350px;
+            height: 250px;
+            border-style: none;
+            background-image: url(./Images/acuña3.jpg);
+            background-position: center;
+            background-size: cover;
+            /* transition: 0.8s; */
+            }
+        
+            .barreirolink {
+                font-size: 1rem;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: transparent;
+                letter-spacing: 10px;
+                font-weight: bold;
+                cursor: pointer;
+                padding: 1rem 2rem;
+                margin: 1rem;
+                width: 350px;
+                height: 250px;
+                border-style: none;
+                background-image: url(./Images/Imagen33.jpg);
+                background-position: center;
+                background-size: cover;
+                transition: 0.8s;
+                }
+
+                .ispicalink {
+                    font-size: 1rem;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: transparent;
+                    letter-spacing: 10px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    padding: 1rem 2rem;
+                    margin: 1rem;
+                    width: 350px;
+                    height: 250px;
+                    border-style: none;
+                    background-image: url(./Images/ispica.jpeg);
+                    background-position: center;
+                    background-size: cover;
+                    transition: 0.8s;
+                    }
+
+@media (min-width: 768px) {
+    .linkproyectos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 8rem auto;
+        width: 90%;
+        }
+
+}
+
+@media (min-width: 1170px) {
+    .container-proyectos {
+        width: 90%;
+        margin: -35rem auto;
+    }
+    
+    .linkproyectos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8rem auto;
+        width: 90%;
+        }
+    
+    .linkproyectos a {
+        text-decoration: none;
+    }
+    
+    #tituloproyecto {
+        display: flex;
+        justify-content: left;
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+    
+    #tituloproyecto:hover {
+        transform: scale(1.2);
+        color: rgb(186, 186, 186);
+    }
+    
+    .casaDonulink {
+    color: transparent;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    width: 350px;
+    height: 250px;
+    border-style: none;
+    background-image: url(./Images/Imagen8.jpg);
+    background-position: center;
+    background-size: cover; 
+    transition: 0.8s;
+    }
+    
+    
+    .casaDonulink:hover {
+        color: black;
+        transform: scale(1.1);    
+    }
+    
+    .acuñalink {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: transparent;
+    letter-spacing: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    width: 350px;
+    height: 250px;
+    border-style: none;
+    background-image: url(./Images/acuña3.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.8s;
+    }
+    
+    .acuñalink:hover {
+        color: black;
+        transform: scale(1.1);
+    }
+    
+    .barreirolink {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: transparent;
+    letter-spacing: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    width: 350px;
+    height: 250px;
+    border-style: none;
+    background-image: url(./Images/Imagen33.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.8s;
+    }
+    
+    .barreirolink:hover {
+        color: black;
+        transform: scale(1.1);
+    }
+    
+    .ispicalink {
+        font-size: 1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: transparent;
+        letter-spacing: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 1rem 2rem;
+        margin: 1rem;
+        width: 350px;
+        height: 250px;
+        border-style: none;
+        background-image: url(./Images/ispica.jpeg);
+        background-position: center;
+        background-size: cover;
+        transition: 0.8s;
+        }
+        
+    .ispicalink:hover {
+        color: black;
+            transform: scale(1.1);
+        }
+}
+        
+.container-proyectos {
+    width: 90%;
+    margin: -35rem auto;
+}
+
+.linkproyectos {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 8rem auto;
@@ -295,7 +535,6 @@ ul.carruselFotos li:target {
     display: flex;
     justify-content: left;
     text-align: center;
-    /* margin-top: 90px; */
     font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 5px;
@@ -303,10 +542,10 @@ ul.carruselFotos li:target {
     transition: 0.5s;
 }
 
-/* #tituloproyecto:hover {
+#tituloproyecto:hover {
     transform: scale(1.2);
     color: rgb(186, 186, 186);
-} */
+}
 
 .casaDonulink {
 color: transparent;
@@ -320,7 +559,6 @@ background-image: url(./Images/Imagen8.jpg);
 background-position: center;
 background-size: cover; 
 transition: 0.8s;
-/* max-width: 100%; */
 }
 
 
@@ -341,12 +579,10 @@ margin: 1rem;
 width: 350px;
 height: 250px;
 border-style: none;
-/* border-radius: 5px; */
 background-image: url(./Images/acuña3.jpg);
 background-position: center;
 background-size: cover;
 transition: 0.8s;
-/* max-width: 100%; */
 }
 
 .acuñalink:hover {
@@ -366,12 +602,10 @@ margin: 1rem;
 width: 350px;
 height: 250px;
 border-style: none;
-/* border-radius: 5px; */
 background-image: url(./Images/Imagen33.jpg);
 background-position: center;
 background-size: cover;
 transition: 0.8s;
-/* max-width: 100%; */
 }
 
 .barreirolink:hover {
@@ -391,19 +625,17 @@ transition: 0.8s;
     width: 350px;
     height: 250px;
     border-style: none;
-    /* border-radius: 5px; */
     background-image: url(./Images/ispica.jpeg);
     background-position: center;
     background-size: cover;
     transition: 0.8s;
-    /* max-width: 100%; */
     }
     
 .ispicalink:hover {
     color: black;
         transform: scale(1.1);
     }
-    
+
 
 /* FIN PROYECTOS */
 
