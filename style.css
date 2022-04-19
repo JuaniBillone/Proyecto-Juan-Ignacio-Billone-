@@ -17,9 +17,11 @@
     
 /* COMIENZO HEADER MOBILE */
 
+
 header {
     width: 100%;
     height: 100vh;
+    margin-bottom: 0;
 }
 
 .nav {
@@ -648,6 +650,7 @@ transition: 0.8s;
 }
 
 .container__infoproyectos {
+    margin-top: -40rem;
     width: 90%;
 }
 
@@ -731,6 +734,7 @@ h1 {
 .form--contacto {
     display: grid;
     justify-content: center;
+    
     margin: 50px;
     width: 90%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

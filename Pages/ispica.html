@@ -15,31 +15,45 @@
 
 
 <body>
-    <!-- INICIO HEADER -->
-    <header>
-<!--         <input type="checkbox" class="checkbox" id="check">
-        <label class="menu__burguer" for="check"><i class="fa-solid fa-bars" id="burguer__menu"></i></label> -->
-    
-        <div class="container logo-nav-container">
-        
-            <nav class="navegacion">
-                <ul class="menu">
-                    <li><a href="../index.html">HOME</a></li>
-                    <li><a href="quienessomos.html">QUIENES SOMOS</a></li>
-                    <li><a href="proyectos.html">PROYECTOS</a>
-                            <ul class="submenu">
-                                <li><a href="casadonu.html">CASA DONU</a></li>
-                                <li><a href="acuña.html">ACUÑA</a></li>
-                                <li><a href="barreiro.html">BARREIRO</a></li>
-                                <li><a href="ispica.html">ISPICA</a></li>
-                            </ul>
-                    </li>
-                    <li><a href="contacto.html">CONTACTO</a></li>    
+
+    <div class="container-fluid">
+        <!-- HEADER -->
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="quienessomos.html">Quienes somos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Proyectos
+                      </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="casadonu.html">Casa Donu</a></li>
+                      <li><a class="dropdown-item" href="barreiro.html">Barreiro</a></li>
+                      <li><a class="dropdown-item" href="ispica.html">Ispica</a></li>
+                      <li><a class="dropdown-item" href="acuña.html">Acuña</a></li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                  </li>
                 </ul>
-            </nav>
-            <a href="../index.html"><img class="logoDom" src="../Images/logo dom.JPG" alt=""></a>
-        </div>
-    </header>
+              </div>
+              <div class="position-absolute top-0 end-0"><a href="../index.html"><img class="logoDom" src="../Images/logo dom.JPG" alt=""></a></div>
+          </nav>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        </header>
 
     <!-- FIN HEADER -->
 
@@ -88,5 +102,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ex eaque consec
         </H4>          
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
